@@ -1,3 +1,11 @@
+# ✈️ Flight Price Prediction
+
+A Machine Learning web application that predicts estimated flight ticket prices based on flight details.
+
+## 🚀 Live Demo
+
+👉 https://flight-price-prediction-jmm.streamlit.app/
+
 # Flight Price Prediction ✈️
 
 A Machine Learning project that predicts flight ticket prices using flight-related information such as airline, source, destination, departure time, class, duration, number of stops, and days left before departure.
