@@ -1,0 +1,501 @@
+Airline,Source,Destination,Departure_Time,Duration_Hours,Total_Stops,Days_Left,Class,Price
+Vistara,Kolkata,Hyderabad,Night,5.2,2,58,Economy,10590
+Air India,Hyderabad,Chennai,Night,6.8,1,2,Economy,14384
+SpiceJet,Chennai,Delhi,Afternoon,4.7,0,49,Economy,7204
+SpiceJet,Kolkata,Bangalore,Evening,7.9,0,3,Business,20331
+Air India,Chennai,Delhi,Night,7.6,1,50,Economy,11110
+Vistara,Kolkata,Hyderabad,Afternoon,3.7,1,40,Economy,9039
+SpiceJet,Hyderabad,Mumbai,Afternoon,1.2,1,26,Economy,7809
+IndiGo,Hyderabad,Kolkata,Afternoon,3.3,0,18,Economy,9084
+SpiceJet,Mumbai,Delhi,Night,4.8,0,29,Economy,8802
+IndiGo,Bangalore,Kolkata,Night,6.1,0,59,Economy,8156
+SpiceJet,Mumbai,Delhi,Evening,7.0,1,33,Economy,10407
+Vistara,Bangalore,Chennai,Evening,4.3,0,47,Economy,8252
+Air India,Delhi,Hyderabad,Evening,6.4,2,27,Economy,12121
+IndiGo,Chennai,Bangalore,Night,4.9,1,37,Economy,9340
+AirAsia,Chennai,Bangalore,Night,7.6,2,59,Economy,9947
+AirAsia,Hyderabad,Delhi,Afternoon,4.2,1,11,Economy,11108
+IndiGo,Kolkata,Delhi,Morning,2.6,1,57,Economy,4832
+Vistara,Chennai,Delhi,Afternoon,3.4,2,59,Economy,8633
+IndiGo,Delhi,Chennai,Afternoon,7.8,1,39,Economy,10704
+IndiGo,Delhi,Kolkata,Afternoon,4.5,1,23,Economy,9714
+Vistara,Delhi,Mumbai,Afternoon,2.0,1,32,Economy,8659
+AirAsia,Bangalore,Delhi,Night,7.9,1,11,Economy,13334
+SpiceJet,Delhi,Mumbai,Evening,2.3,0,3,Economy,8695
+IndiGo,Kolkata,Delhi,Night,3.7,1,40,Economy,8324
+IndiGo,Kolkata,Delhi,Afternoon,7.5,1,42,Economy,11312
+SpiceJet,Delhi,Chennai,Morning,2.7,1,12,Economy,9893
+IndiGo,Bangalore,Delhi,Evening,5.9,2,20,Business,19339
+SpiceJet,Bangalore,Delhi,Afternoon,5.7,1,35,Economy,10499
+IndiGo,Delhi,Kolkata,Morning,3.0,1,18,Economy,9635
+SpiceJet,Kolkata,Delhi,Morning,4.5,2,3,Economy,12202
+Vistara,Delhi,Chennai,Evening,5.5,1,46,Economy,10364
+Air India,Bangalore,Kolkata,Morning,4.5,2,33,Economy,10717
+SpiceJet,Chennai,Bangalore,Evening,6.4,0,44,Business,15998
+SpiceJet,Chennai,Bangalore,Morning,1.5,0,21,Economy,7840
+Air India,Delhi,Kolkata,Morning,3.8,1,58,Business,13846
+Air India,Bangalore,Mumbai,Afternoon,6.2,0,9,Economy,13115
+Air India,Chennai,Mumbai,Evening,2.8,0,60,Economy,6679
+Vistara,Delhi,Chennai,Evening,1.2,1,2,Economy,10884
+IndiGo,Hyderabad,Bangalore,Afternoon,4.8,0,22,Economy,9664
+IndiGo,Kolkata,Hyderabad,Night,6.4,0,39,Economy,10204
+Vistara,Chennai,Kolkata,Evening,2.0,0,50,Economy,7524
+Air India,Bangalore,Chennai,Evening,2.8,1,53,Economy,6806
+AirAsia,Delhi,Chennai,Morning,2.2,0,47,Economy,6663
+IndiGo,Chennai,Hyderabad,Night,4.6,2,5,Economy,12522
+Air India,Bangalore,Chennai,Night,2.1,1,57,Economy,6660
+AirAsia,Kolkata,Delhi,Evening,1.3,1,5,Business,16410
+Air India,Kolkata,Mumbai,Evening,4.5,0,56,Economy,7369
+SpiceJet,Bangalore,Chennai,Afternoon,5.0,0,33,Economy,8990
+SpiceJet,Bangalore,Hyderabad,Evening,6.7,1,43,Economy,9707
+Air India,Chennai,Mumbai,Afternoon,3.4,2,41,Economy,9204
+Air India,Mumbai,Hyderabad,Morning,7.6,0,21,Business,18332
+Vistara,Bangalore,Delhi,Night,1.9,0,39,Economy,8505
+SpiceJet,Hyderabad,Chennai,Morning,5.8,2,25,Economy,11676
+AirAsia,Kolkata,Delhi,Evening,1.7,0,41,Economy,4783
+SpiceJet,Delhi,Chennai,Evening,4.5,0,5,Economy,11452
+IndiGo,Kolkata,Hyderabad,Evening,1.6,1,58,Economy,4782
+Vistara,Mumbai,Hyderabad,Evening,4.8,2,18,Business,20164
+AirAsia,Delhi,Hyderabad,Night,1.5,1,27,Economy,7738
+AirAsia,Chennai,Hyderabad,Afternoon,7.9,0,1,Business,20595
+SpiceJet,Chennai,Kolkata,Afternoon,6.0,2,44,Economy,9886
+Air India,Bangalore,Mumbai,Evening,1.8,2,45,Economy,7319
+IndiGo,Kolkata,Hyderabad,Evening,6.2,0,28,Business,17376
+IndiGo,Kolkata,Delhi,Night,4.7,0,6,Economy,11133
+Vistara,Chennai,Hyderabad,Night,1.5,2,19,Business,17525
+IndiGo,Mumbai,Delhi,Afternoon,3.1,0,53,Economy,6948
+Air India,Bangalore,Chennai,Night,1.4,1,12,Economy,9069
+SpiceJet,Chennai,Mumbai,Night,4.2,1,60,Economy,5884
+SpiceJet,Kolkata,Hyderabad,Night,2.1,1,35,Economy,7551
+AirAsia,Mumbai,Kolkata,Evening,7.4,1,56,Business,15684
+Air India,Delhi,Mumbai,Night,7.9,2,21,Economy,13945
+Vistara,Delhi,Kolkata,Morning,6.9,1,41,Economy,11696
+IndiGo,Hyderabad,Kolkata,Morning,8.0,1,3,Economy,14232
+AirAsia,Chennai,Hyderabad,Afternoon,6.9,0,21,Economy,10466
+SpiceJet,Delhi,Bangalore,Evening,1.8,1,58,Economy,5588
+Vistara,Hyderabad,Bangalore,Afternoon,7.0,1,44,Economy,11456
+Air India,Chennai,Hyderabad,Evening,2.5,1,60,Business,13836
+Air India,Mumbai,Bangalore,Afternoon,4.9,2,34,Economy,11461
+Vistara,Kolkata,Mumbai,Morning,7.6,1,56,Economy,11077
+SpiceJet,Delhi,Chennai,Night,1.3,1,53,Economy,5558
+IndiGo,Bangalore,Kolkata,Evening,1.9,2,11,Economy,9264
+IndiGo,Kolkata,Chennai,Evening,7.1,2,29,Business,18467
+Air India,Chennai,Hyderabad,Night,3.4,1,21,Economy,10352
+SpiceJet,Chennai,Delhi,Afternoon,7.3,0,14,Economy,11777
+AirAsia,Delhi,Kolkata,Morning,2.9,0,8,Economy,9253
+Air India,Chennai,Kolkata,Night,3.6,1,45,Economy,8753
+AirAsia,Bangalore,Chennai,Afternoon,4.1,2,51,Economy,8226
+SpiceJet,Delhi,Hyderabad,Afternoon,4.9,0,39,Economy,7630
+IndiGo,Chennai,Kolkata,Night,3.5,0,45,Economy,7253
+IndiGo,Kolkata,Mumbai,Night,1.9,0,37,Economy,7133
+AirAsia,Bangalore,Hyderabad,Morning,2.7,1,21,Economy,9765
+IndiGo,Kolkata,Bangalore,Evening,1.4,2,40,Economy,7679
+Vistara,Hyderabad,Delhi,Afternoon,7.5,2,11,Economy,15243
+SpiceJet,Bangalore,Hyderabad,Morning,2.3,1,4,Economy,9176
+AirAsia,Delhi,Bangalore,Afternoon,2.1,0,43,Economy,6054
+Air India,Hyderabad,Mumbai,Morning,1.4,1,13,Economy,10535
+AirAsia,Bangalore,Delhi,Afternoon,6.2,1,14,Business,18518
+Air India,Bangalore,Delhi,Night,3.7,0,40,Economy,8456
+AirAsia,Kolkata,Bangalore,Morning,6.7,2,14,Economy,13118
+AirAsia,Kolkata,Delhi,Afternoon,3.7,2,40,Economy,7655
+IndiGo,Delhi,Mumbai,Morning,3.7,1,14,Economy,10194
+Vistara,Bangalore,Kolkata,Evening,6.1,1,52,Economy,10626
+AirAsia,Bangalore,Chennai,Afternoon,6.3,0,37,Economy,10585
+Air India,Delhi,Chennai,Afternoon,4.5,1,33,Economy,8788
+AirAsia,Chennai,Kolkata,Night,2.0,2,4,Economy,10618
+Vistara,Mumbai,Kolkata,Evening,5.0,1,43,Economy,9671
+SpiceJet,Mumbai,Kolkata,Afternoon,5.1,1,18,Economy,10490
+SpiceJet,Kolkata,Bangalore,Night,5.0,0,56,Economy,7722
+Vistara,Mumbai,Delhi,Morning,1.7,0,22,Business,16366
+AirAsia,Delhi,Hyderabad,Afternoon,6.9,1,23,Business,18618
+AirAsia,Chennai,Delhi,Morning,2.4,0,53,Economy,5987
+IndiGo,Bangalore,Chennai,Afternoon,7.4,1,7,Economy,13352
+SpiceJet,Bangalore,Kolkata,Evening,2.0,0,7,Economy,9775
+IndiGo,Chennai,Delhi,Morning,5.1,1,26,Economy,9881
+IndiGo,Kolkata,Delhi,Night,3.9,2,40,Economy,9288
+Vistara,Delhi,Hyderabad,Evening,6.6,1,32,Economy,11543
+IndiGo,Bangalore,Mumbai,Afternoon,6.0,1,2,Economy,13673
+Vistara,Delhi,Bangalore,Evening,1.7,0,55,Business,12686
+SpiceJet,Hyderabad,Mumbai,Morning,1.2,1,7,Economy,8591
+Vistara,Delhi,Mumbai,Night,2.4,2,8,Economy,11578
+Air India,Delhi,Chennai,Evening,2.7,1,32,Business,15975
+SpiceJet,Bangalore,Chennai,Morning,2.0,1,31,Economy,7735
+Vistara,Delhi,Hyderabad,Night,2.3,0,60,Economy,6052
+SpiceJet,Delhi,Hyderabad,Evening,2.8,1,3,Economy,10798
+Air India,Hyderabad,Delhi,Morning,3.1,1,22,Economy,9103
+Vistara,Delhi,Bangalore,Afternoon,4.3,0,50,Economy,8764
+IndiGo,Chennai,Delhi,Afternoon,5.5,1,4,Economy,11575
+Air India,Chennai,Hyderabad,Evening,5.8,1,18,Economy,12016
+AirAsia,Mumbai,Delhi,Morning,4.5,2,53,Economy,8790
+IndiGo,Chennai,Bangalore,Evening,7.1,1,12,Economy,14290
+AirAsia,Delhi,Bangalore,Night,6.4,1,2,Economy,12812
+Vistara,Bangalore,Delhi,Morning,5.2,1,29,Economy,11058
+Vistara,Delhi,Kolkata,Afternoon,4.3,2,24,Business,18214
+Air India,Chennai,Delhi,Night,4.8,2,35,Economy,10747
+IndiGo,Mumbai,Hyderabad,Morning,3.5,0,25,Economy,8226
+Vistara,Mumbai,Delhi,Evening,1.5,2,30,Economy,9296
+IndiGo,Bangalore,Kolkata,Morning,6.5,0,55,Economy,8121
+AirAsia,Kolkata,Bangalore,Morning,5.6,1,16,Economy,11205
+IndiGo,Bangalore,Mumbai,Morning,5.7,1,16,Business,17780
+Air India,Mumbai,Hyderabad,Evening,1.2,0,7,Economy,9060
+Vistara,Hyderabad,Kolkata,Afternoon,4.7,2,17,Economy,13071
+SpiceJet,Bangalore,Chennai,Morning,1.5,0,43,Economy,5579
+AirAsia,Delhi,Chennai,Afternoon,3.2,1,33,Business,15267
+Air India,Mumbai,Chennai,Evening,4.2,1,30,Economy,9721
+SpiceJet,Bangalore,Kolkata,Morning,6.4,0,53,Economy,7747
+Air India,Kolkata,Delhi,Afternoon,3.9,2,20,Economy,10920
+SpiceJet,Hyderabad,Mumbai,Afternoon,2.6,0,48,Economy,5939
+IndiGo,Hyderabad,Delhi,Morning,5.8,2,58,Economy,9202
+AirAsia,Hyderabad,Bangalore,Afternoon,2.2,2,8,Business,16334
+Vistara,Hyderabad,Chennai,Morning,1.8,2,34,Economy,9574
+IndiGo,Hyderabad,Delhi,Evening,5.2,0,59,Economy,7474
+IndiGo,Mumbai,Bangalore,Night,7.3,2,38,Economy,10447
+AirAsia,Bangalore,Chennai,Morning,1.3,1,12,Economy,8111
+Vistara,Delhi,Hyderabad,Evening,3.0,2,38,Economy,9843
+SpiceJet,Hyderabad,Chennai,Night,5.8,0,13,Business,19017
+Vistara,Chennai,Hyderabad,Afternoon,5.0,1,40,Economy,10792
+IndiGo,Bangalore,Chennai,Evening,7.1,0,13,Economy,12050
+Air India,Delhi,Hyderabad,Night,5.3,1,60,Economy,8125
+SpiceJet,Hyderabad,Mumbai,Afternoon,6.8,0,12,Economy,11483
+IndiGo,Chennai,Bangalore,Morning,5.4,2,34,Economy,11308
+Air India,Hyderabad,Bangalore,Morning,7.7,2,28,Economy,13257
+AirAsia,Hyderabad,Chennai,Afternoon,7.6,1,4,Economy,13419
+Air India,Mumbai,Delhi,Night,1.3,1,14,Business,16277
+SpiceJet,Chennai,Kolkata,Evening,1.9,0,12,Economy,9253
+Air India,Mumbai,Bangalore,Afternoon,4.3,0,35,Economy,8977
+Vistara,Chennai,Hyderabad,Night,6.9,2,14,Economy,14725
+SpiceJet,Chennai,Bangalore,Afternoon,6.3,0,3,Economy,12392
+Air India,Mumbai,Chennai,Morning,2.4,0,25,Economy,7898
+IndiGo,Bangalore,Chennai,Morning,1.6,2,27,Economy,9742
+AirAsia,Kolkata,Bangalore,Night,3.1,1,3,Economy,11349
+IndiGo,Kolkata,Chennai,Afternoon,2.6,2,22,Economy,10311
+Vistara,Chennai,Mumbai,Night,4.2,0,18,Economy,11264
+AirAsia,Hyderabad,Bangalore,Morning,7.0,1,41,Economy,10184
+IndiGo,Hyderabad,Bangalore,Morning,1.7,1,32,Economy,6794
+Air India,Delhi,Bangalore,Night,1.5,0,33,Business,14165
+AirAsia,Hyderabad,Delhi,Night,3.5,2,2,Business,18806
+SpiceJet,Mumbai,Bangalore,Morning,7.7,0,3,Business,19761
+IndiGo,Delhi,Mumbai,Afternoon,7.5,1,28,Economy,12435
+SpiceJet,Bangalore,Chennai,Afternoon,6.7,1,3,Economy,12882
+Vistara,Kolkata,Mumbai,Afternoon,1.4,2,12,Economy,10660
+AirAsia,Hyderabad,Kolkata,Night,7.1,0,55,Economy,8782
+Air India,Kolkata,Mumbai,Evening,2.6,0,59,Economy,6207
+SpiceJet,Chennai,Delhi,Morning,7.1,2,58,Economy,9119
+SpiceJet,Kolkata,Hyderabad,Night,3.6,1,49,Economy,7095
+Air India,Mumbai,Chennai,Evening,7.3,1,39,Economy,11428
+AirAsia,Bangalore,Mumbai,Night,3.7,1,40,Economy,8365
+SpiceJet,Kolkata,Mumbai,Afternoon,7.8,2,37,Business,18441
+SpiceJet,Chennai,Delhi,Morning,4.1,2,25,Economy,10304
+SpiceJet,Delhi,Mumbai,Afternoon,7.0,0,1,Economy,12563
+Vistara,Kolkata,Hyderabad,Afternoon,1.5,1,16,Economy,10468
+SpiceJet,Delhi,Hyderabad,Night,5.3,0,57,Economy,7003
+IndiGo,Kolkata,Chennai,Evening,6.2,0,12,Economy,11871
+Vistara,Kolkata,Chennai,Morning,1.2,1,2,Economy,11095
+Air India,Chennai,Kolkata,Morning,5.5,2,6,Economy,14228
+Air India,Kolkata,Hyderabad,Night,5.8,1,34,Economy,11126
+Vistara,Chennai,Delhi,Afternoon,3.4,1,20,Economy,11012
+IndiGo,Mumbai,Hyderabad,Evening,5.7,1,5,Business,19550
+Air India,Mumbai,Delhi,Evening,5.8,1,18,Economy,12121
+IndiGo,Kolkata,Bangalore,Afternoon,7.4,0,19,Business,19485
+AirAsia,Hyderabad,Chennai,Morning,1.7,1,50,Economy,6191
+IndiGo,Delhi,Hyderabad,Morning,5.0,0,11,Business,17721
+Vistara,Chennai,Kolkata,Afternoon,7.3,0,41,Economy,11270
+AirAsia,Hyderabad,Delhi,Evening,5.4,1,7,Economy,12294
+AirAsia,Bangalore,Chennai,Morning,5.2,0,35,Economy,8925
+Air India,Hyderabad,Mumbai,Afternoon,4.5,0,26,Business,16520
+AirAsia,Mumbai,Chennai,Morning,3.4,0,34,Economy,7585
+SpiceJet,Bangalore,Mumbai,Evening,4.6,0,23,Economy,8663
+IndiGo,Chennai,Kolkata,Night,7.5,2,4,Business,21053
+AirAsia,Chennai,Kolkata,Night,5.7,0,47,Economy,8090
+Air India,Mumbai,Chennai,Afternoon,2.9,1,25,Economy,9160
+AirAsia,Delhi,Bangalore,Afternoon,7.4,1,7,Economy,13477
+Air India,Kolkata,Hyderabad,Evening,7.7,2,22,Economy,13488
+Air India,Delhi,Bangalore,Morning,6.9,0,26,Economy,11751
+Vistara,Kolkata,Mumbai,Night,4.0,1,25,Economy,10582
+IndiGo,Mumbai,Hyderabad,Evening,7.1,0,55,Economy,9943
+Vistara,Hyderabad,Chennai,Night,2.4,2,10,Economy,11406
+Vistara,Delhi,Bangalore,Evening,5.9,2,42,Economy,11652
+Vistara,Delhi,Mumbai,Evening,3.4,1,19,Economy,11401
+AirAsia,Chennai,Kolkata,Morning,5.2,0,8,Economy,10863
+SpiceJet,Hyderabad,Delhi,Morning,4.6,1,60,Economy,7237
+Vistara,Hyderabad,Mumbai,Afternoon,2.6,1,3,Economy,11002
+Air India,Mumbai,Chennai,Afternoon,4.9,1,23,Economy,11038
+AirAsia,Kolkata,Hyderabad,Morning,5.8,0,55,Economy,7320
+SpiceJet,Hyderabad,Delhi,Morning,3.1,2,16,Economy,9813
+SpiceJet,Hyderabad,Chennai,Afternoon,2.8,2,32,Economy,9095
+Air India,Kolkata,Chennai,Morning,1.3,0,23,Economy,7518
+IndiGo,Bangalore,Delhi,Morning,3.1,1,23,Business,16111
+Vistara,Mumbai,Kolkata,Evening,7.9,0,52,Economy,10751
+SpiceJet,Mumbai,Kolkata,Afternoon,1.6,0,35,Economy,7003
+Air India,Mumbai,Kolkata,Afternoon,7.8,1,25,Economy,11875
+AirAsia,Hyderabad,Delhi,Night,4.5,0,6,Economy,10561
+AirAsia,Chennai,Mumbai,Afternoon,4.5,2,4,Economy,11824
+SpiceJet,Kolkata,Hyderabad,Afternoon,2.9,2,6,Economy,11001
+SpiceJet,Bangalore,Mumbai,Evening,2.1,2,5,Economy,10026
+AirAsia,Bangalore,Mumbai,Evening,5.9,0,23,Economy,10259
+IndiGo,Bangalore,Hyderabad,Night,3.1,2,7,Economy,11118
+SpiceJet,Delhi,Hyderabad,Night,2.2,1,39,Economy,6756
+AirAsia,Chennai,Kolkata,Evening,3.6,1,14,Economy,10209
+AirAsia,Mumbai,Kolkata,Afternoon,6.5,0,10,Economy,11699
+AirAsia,Chennai,Delhi,Morning,6.8,0,21,Economy,10386
+SpiceJet,Bangalore,Hyderabad,Night,1.7,1,4,Business,16189
+Vistara,Kolkata,Mumbai,Morning,5.3,0,38,Economy,10416
+Air India,Delhi,Mumbai,Night,1.5,0,10,Business,15685
+SpiceJet,Kolkata,Hyderabad,Evening,4.5,2,22,Economy,10370
+AirAsia,Chennai,Bangalore,Night,7.9,2,37,Economy,11854
+IndiGo,Delhi,Kolkata,Morning,6.6,2,24,Economy,10983
+Vistara,Hyderabad,Kolkata,Night,6.4,2,51,Economy,11293
+AirAsia,Bangalore,Mumbai,Morning,5.6,1,38,Economy,9954
+Air India,Delhi,Mumbai,Evening,2.4,0,36,Economy,7617
+IndiGo,Hyderabad,Delhi,Morning,4.7,1,50,Economy,8153
+AirAsia,Mumbai,Hyderabad,Night,6.2,1,11,Economy,11526
+IndiGo,Delhi,Bangalore,Morning,3.6,1,60,Economy,6364
+SpiceJet,Kolkata,Hyderabad,Night,4.5,0,56,Business,13390
+SpiceJet,Mumbai,Delhi,Morning,4.8,0,13,Economy,9773
+IndiGo,Bangalore,Kolkata,Afternoon,4.8,0,18,Economy,10337
+Vistara,Chennai,Kolkata,Afternoon,2.5,2,23,Economy,10864
+Vistara,Chennai,Delhi,Evening,1.7,2,29,Economy,10521
+AirAsia,Kolkata,Delhi,Evening,2.1,1,16,Economy,9060
+Air India,Kolkata,Bangalore,Afternoon,2.4,1,21,Economy,9571
+Air India,Bangalore,Kolkata,Morning,3.6,0,52,Economy,7275
+IndiGo,Kolkata,Delhi,Afternoon,6.3,2,16,Economy,12748
+AirAsia,Hyderabad,Bangalore,Afternoon,3.6,0,4,Economy,10312
+AirAsia,Chennai,Hyderabad,Afternoon,5.3,0,45,Economy,8576
+Vistara,Kolkata,Hyderabad,Night,1.7,1,55,Economy,6980
+Vistara,Hyderabad,Mumbai,Evening,1.2,2,49,Economy,7387
+SpiceJet,Bangalore,Hyderabad,Afternoon,7.9,0,31,Economy,9998
+IndiGo,Hyderabad,Delhi,Afternoon,3.6,0,59,Economy,6285
+SpiceJet,Bangalore,Delhi,Afternoon,5.5,0,6,Economy,11295
+Vistara,Hyderabad,Kolkata,Evening,5.0,0,57,Economy,8671
+Vistara,Mumbai,Bangalore,Morning,5.9,1,54,Economy,9062
+Air India,Chennai,Bangalore,Evening,4.0,2,5,Economy,12485
+IndiGo,Chennai,Kolkata,Morning,4.2,0,36,Economy,8463
+IndiGo,Mumbai,Kolkata,Night,6.1,1,41,Economy,9701
+SpiceJet,Kolkata,Chennai,Morning,6.3,0,36,Economy,10073
+IndiGo,Mumbai,Bangalore,Morning,2.9,0,45,Business,13384
+Air India,Bangalore,Chennai,Afternoon,4.9,0,4,Economy,11826
+SpiceJet,Mumbai,Kolkata,Night,4.9,2,21,Economy,11105
+AirAsia,Kolkata,Delhi,Afternoon,7.9,0,3,Economy,13011
+AirAsia,Bangalore,Delhi,Night,7.8,0,41,Economy,9648
+Air India,Chennai,Kolkata,Morning,7.0,2,33,Economy,12112
+IndiGo,Hyderabad,Delhi,Afternoon,1.6,1,34,Economy,7376
+Air India,Chennai,Hyderabad,Afternoon,6.9,1,10,Economy,14315
+SpiceJet,Hyderabad,Kolkata,Evening,4.2,2,49,Economy,7803
+Air India,Chennai,Kolkata,Evening,6.3,1,15,Economy,12430
+SpiceJet,Delhi,Bangalore,Afternoon,4.9,1,25,Economy,10386
+IndiGo,Bangalore,Chennai,Afternoon,4.5,1,39,Economy,8717
+Vistara,Bangalore,Hyderabad,Evening,2.4,1,8,Economy,11814
+SpiceJet,Kolkata,Delhi,Morning,5.4,2,9,Economy,12394
+SpiceJet,Mumbai,Chennai,Afternoon,6.6,2,16,Business,20066
+Air India,Bangalore,Kolkata,Evening,7.9,0,28,Economy,11612
+IndiGo,Kolkata,Bangalore,Night,6.2,2,16,Business,19772
+AirAsia,Chennai,Hyderabad,Afternoon,5.4,1,58,Economy,8334
+Air India,Delhi,Chennai,Afternoon,1.6,0,35,Economy,8415
+SpiceJet,Chennai,Delhi,Afternoon,4.8,2,60,Economy,8519
+AirAsia,Kolkata,Delhi,Night,4.5,2,12,Economy,11331
+SpiceJet,Mumbai,Hyderabad,Night,1.6,0,21,Economy,7665
+Vistara,Mumbai,Bangalore,Morning,4.0,1,17,Economy,11851
+Vistara,Bangalore,Kolkata,Morning,1.9,1,2,Economy,11605
+SpiceJet,Delhi,Kolkata,Afternoon,4.6,1,15,Economy,10217
+AirAsia,Bangalore,Delhi,Morning,5.6,1,36,Business,17002
+Vistara,Chennai,Mumbai,Morning,7.1,2,23,Economy,14264
+AirAsia,Mumbai,Chennai,Night,1.9,2,30,Economy,7941
+IndiGo,Hyderabad,Mumbai,Evening,7.8,2,42,Economy,11592
+AirAsia,Kolkata,Chennai,Evening,5.3,0,59,Economy,8090
+AirAsia,Kolkata,Hyderabad,Night,1.7,1,9,Economy,9336
+Vistara,Kolkata,Delhi,Morning,3.1,2,14,Economy,12064
+AirAsia,Hyderabad,Delhi,Afternoon,6.6,1,12,Economy,12710
+AirAsia,Hyderabad,Mumbai,Evening,5.6,0,3,Economy,11771
+Vistara,Delhi,Chennai,Morning,1.5,0,8,Economy,10865
+IndiGo,Kolkata,Chennai,Evening,7.2,0,22,Economy,12191
+SpiceJet,Chennai,Bangalore,Evening,4.6,1,12,Economy,11835
+Air India,Hyderabad,Kolkata,Night,5.2,2,41,Economy,10049
+IndiGo,Delhi,Bangalore,Morning,4.3,1,27,Economy,9847
+IndiGo,Kolkata,Mumbai,Morning,3.3,0,35,Economy,7058
+AirAsia,Delhi,Hyderabad,Afternoon,7.0,0,8,Economy,12640
+Air India,Kolkata,Delhi,Evening,6.6,0,42,Economy,9980
+IndiGo,Chennai,Delhi,Morning,1.8,2,59,Economy,6376
+Vistara,Delhi,Hyderabad,Afternoon,7.9,0,46,Economy,12190
+AirAsia,Chennai,Hyderabad,Night,5.7,0,45,Economy,8035
+AirAsia,Kolkata,Mumbai,Night,7.0,1,23,Economy,11472
+SpiceJet,Kolkata,Delhi,Afternoon,1.6,2,28,Economy,8468
+SpiceJet,Delhi,Mumbai,Afternoon,3.2,0,39,Economy,7885
+AirAsia,Bangalore,Kolkata,Afternoon,4.5,2,54,Economy,8693
+SpiceJet,Kolkata,Bangalore,Afternoon,1.8,1,29,Economy,7068
+SpiceJet,Delhi,Mumbai,Evening,4.1,2,45,Economy,8624
+IndiGo,Chennai,Hyderabad,Evening,3.4,2,24,Economy,10195
+Vistara,Mumbai,Chennai,Morning,2.9,0,38,Economy,9013
+Air India,Kolkata,Chennai,Night,6.8,2,41,Economy,11877
+IndiGo,Mumbai,Kolkata,Afternoon,5.9,0,24,Economy,9636
+SpiceJet,Kolkata,Hyderabad,Morning,7.2,0,47,Economy,9405
+Vistara,Kolkata,Bangalore,Evening,1.5,1,11,Economy,10289
+Air India,Hyderabad,Chennai,Night,2.5,1,1,Economy,10513
+Vistara,Mumbai,Kolkata,Night,3.9,2,50,Economy,9579
+Air India,Chennai,Hyderabad,Morning,6.8,0,42,Economy,8888
+IndiGo,Mumbai,Chennai,Morning,1.6,2,47,Economy,6250
+SpiceJet,Delhi,Hyderabad,Morning,2.1,0,13,Economy,8849
+Air India,Bangalore,Kolkata,Afternoon,2.8,2,58,Economy,7570
+AirAsia,Hyderabad,Kolkata,Night,6.8,2,1,Economy,13794
+SpiceJet,Mumbai,Kolkata,Evening,6.5,2,60,Economy,8496
+Air India,Hyderabad,Delhi,Evening,2.4,0,8,Economy,11162
+AirAsia,Bangalore,Kolkata,Afternoon,6.1,0,47,Business,14759
+SpiceJet,Chennai,Bangalore,Morning,6.6,0,46,Economy,8585
+SpiceJet,Kolkata,Mumbai,Afternoon,4.7,1,24,Economy,10084
+IndiGo,Bangalore,Kolkata,Evening,5.0,2,53,Business,16357
+Vistara,Kolkata,Hyderabad,Night,8.0,0,17,Economy,13672
+Vistara,Delhi,Kolkata,Evening,1.2,2,46,Economy,8403
+Vistara,Hyderabad,Chennai,Evening,5.8,1,21,Economy,12975
+Vistara,Mumbai,Delhi,Night,4.7,1,47,Business,16668
+AirAsia,Chennai,Delhi,Morning,6.3,0,60,Economy,7432
+Vistara,Delhi,Chennai,Afternoon,1.7,2,9,Economy,11751
+Vistara,Hyderabad,Bangalore,Night,1.8,0,45,Economy,6696
+Vistara,Chennai,Hyderabad,Evening,7.1,1,40,Economy,11733
+Air India,Hyderabad,Kolkata,Afternoon,6.0,2,31,Economy,12034
+AirAsia,Bangalore,Kolkata,Evening,4.3,0,17,Economy,9680
+IndiGo,Chennai,Bangalore,Morning,1.9,0,55,Economy,5369
+Air India,Hyderabad,Mumbai,Night,5.4,1,14,Economy,11677
+AirAsia,Hyderabad,Kolkata,Evening,6.4,1,12,Economy,11603
+Air India,Hyderabad,Mumbai,Night,5.4,2,41,Economy,10187
+Air India,Hyderabad,Delhi,Night,1.0,0,44,Economy,5988
+Vistara,Chennai,Kolkata,Morning,3.5,2,9,Economy,13044
+Vistara,Bangalore,Hyderabad,Morning,3.6,2,37,Economy,10028
+IndiGo,Mumbai,Hyderabad,Night,5.4,2,10,Economy,12755
+SpiceJet,Chennai,Delhi,Evening,7.7,2,25,Economy,12510
+Vistara,Chennai,Kolkata,Evening,5.5,1,17,Economy,12690
+Air India,Delhi,Kolkata,Night,3.6,0,60,Business,13821
+AirAsia,Chennai,Mumbai,Morning,3.9,1,16,Economy,10246
+SpiceJet,Hyderabad,Delhi,Morning,6.3,0,34,Economy,10105
+Vistara,Kolkata,Mumbai,Night,7.8,0,28,Economy,12916
+Vistara,Kolkata,Bangalore,Morning,1.4,1,54,Economy,6786
+Air India,Kolkata,Hyderabad,Afternoon,2.7,1,24,Economy,9458
+Vistara,Bangalore,Delhi,Evening,3.3,1,52,Economy,8391
+SpiceJet,Bangalore,Delhi,Afternoon,4.6,1,1,Economy,12198
+SpiceJet,Kolkata,Mumbai,Evening,5.0,1,59,Economy,7839
+AirAsia,Delhi,Bangalore,Afternoon,4.0,0,25,Economy,7719
+Vistara,Hyderabad,Kolkata,Morning,5.5,2,36,Economy,11898
+IndiGo,Delhi,Kolkata,Evening,6.5,0,22,Economy,11239
+Air India,Chennai,Mumbai,Night,4.3,2,44,Economy,9773
+AirAsia,Mumbai,Delhi,Night,7.9,1,11,Business,20147
+SpiceJet,Bangalore,Mumbai,Evening,2.0,1,25,Economy,7775
+Vistara,Chennai,Bangalore,Morning,6.7,2,31,Economy,12605
+IndiGo,Kolkata,Chennai,Evening,1.4,1,50,Economy,5251
+SpiceJet,Mumbai,Hyderabad,Night,2.6,1,33,Business,14076
+AirAsia,Chennai,Mumbai,Afternoon,1.5,1,22,Economy,7982
+AirAsia,Hyderabad,Mumbai,Evening,1.3,1,6,Economy,9254
+IndiGo,Kolkata,Chennai,Night,5.5,2,26,Economy,11456
+AirAsia,Kolkata,Bangalore,Morning,7.4,2,55,Economy,10248
+IndiGo,Chennai,Mumbai,Evening,3.8,1,34,Economy,9220
+SpiceJet,Chennai,Mumbai,Evening,2.6,2,39,Economy,8153
+SpiceJet,Chennai,Mumbai,Morning,3.6,1,43,Economy,8307
+Air India,Mumbai,Chennai,Evening,6.1,2,22,Economy,12500
+Air India,Chennai,Hyderabad,Night,3.0,2,27,Business,16697
+AirAsia,Delhi,Mumbai,Evening,3.6,0,30,Business,15170
+Air India,Hyderabad,Delhi,Morning,2.8,0,27,Economy,8894
+IndiGo,Delhi,Bangalore,Afternoon,7.1,2,10,Economy,13268
+Air India,Delhi,Mumbai,Night,3.0,0,4,Economy,10953
+AirAsia,Bangalore,Kolkata,Evening,3.3,2,19,Economy,10430
+AirAsia,Mumbai,Hyderabad,Afternoon,6.5,1,20,Economy,11474
+AirAsia,Kolkata,Hyderabad,Night,2.3,2,48,Business,12668
+SpiceJet,Bangalore,Hyderabad,Afternoon,6.4,1,4,Economy,12959
+AirAsia,Delhi,Mumbai,Night,3.0,0,5,Economy,10535
+SpiceJet,Chennai,Delhi,Afternoon,3.5,0,10,Economy,10967
+AirAsia,Hyderabad,Chennai,Night,2.6,2,22,Economy,9869
+Air India,Chennai,Hyderabad,Afternoon,7.3,0,25,Economy,12320
+Vistara,Bangalore,Delhi,Evening,6.6,2,16,Economy,14870
+Air India,Delhi,Kolkata,Afternoon,1.1,1,9,Economy,8590
+IndiGo,Mumbai,Delhi,Night,7.6,2,25,Economy,13548
+SpiceJet,Delhi,Kolkata,Morning,7.5,1,40,Economy,10906
+Air India,Bangalore,Delhi,Evening,7.0,0,17,Economy,12661
+IndiGo,Chennai,Bangalore,Evening,6.4,2,45,Business,16823
+Vistara,Delhi,Mumbai,Afternoon,2.1,1,49,Economy,6991
+Vistara,Bangalore,Hyderabad,Afternoon,4.8,0,40,Economy,9581
+Vistara,Delhi,Hyderabad,Night,7.0,0,48,Economy,9583
+Air India,Bangalore,Kolkata,Morning,2.1,2,2,Business,18859
+AirAsia,Bangalore,Delhi,Night,2.8,2,3,Business,17934
+IndiGo,Kolkata,Chennai,Morning,1.1,0,11,Economy,8241
+IndiGo,Kolkata,Delhi,Morning,6.1,1,5,Economy,12418
+AirAsia,Delhi,Kolkata,Evening,1.4,2,39,Business,14526
+Vistara,Chennai,Kolkata,Night,6.3,0,24,Economy,12262
+Air India,Mumbai,Hyderabad,Morning,1.7,1,5,Business,17166
+Air India,Delhi,Hyderabad,Afternoon,5.1,0,27,Economy,10297
+Vistara,Mumbai,Delhi,Night,5.4,1,38,Business,17589
+AirAsia,Bangalore,Kolkata,Evening,7.7,2,41,Economy,12147
+Air India,Mumbai,Hyderabad,Afternoon,7.8,2,27,Economy,13970
+Vistara,Delhi,Mumbai,Night,2.7,1,29,Economy,9703
+Vistara,Chennai,Bangalore,Night,1.0,1,36,Economy,7517
+SpiceJet,Delhi,Hyderabad,Morning,1.1,2,49,Economy,6529
+Air India,Hyderabad,Delhi,Afternoon,6.2,1,35,Business,18670
+SpiceJet,Chennai,Delhi,Evening,2.8,0,59,Economy,5348
+IndiGo,Delhi,Kolkata,Morning,2.7,0,40,Economy,6947
+IndiGo,Chennai,Kolkata,Morning,1.1,2,48,Business,12943
+IndiGo,Hyderabad,Mumbai,Evening,5.2,1,48,Economy,7761
+SpiceJet,Mumbai,Kolkata,Evening,3.0,1,3,Economy,10995
+Air India,Hyderabad,Bangalore,Morning,7.4,1,43,Economy,11584
+SpiceJet,Delhi,Chennai,Morning,7.3,0,18,Economy,12841
+SpiceJet,Bangalore,Kolkata,Afternoon,4.0,1,60,Economy,6325
+Air India,Kolkata,Mumbai,Evening,3.0,2,58,Economy,7473
+SpiceJet,Chennai,Bangalore,Night,1.7,2,3,Economy,9290
+IndiGo,Mumbai,Delhi,Afternoon,2.1,0,5,Economy,9774
+SpiceJet,Bangalore,Kolkata,Morning,1.1,2,56,Economy,5863
+AirAsia,Delhi,Hyderabad,Evening,1.5,0,45,Economy,4877
+IndiGo,Mumbai,Bangalore,Morning,1.7,0,6,Economy,8328
+AirAsia,Bangalore,Delhi,Afternoon,7.2,2,16,Economy,13988
+AirAsia,Chennai,Hyderabad,Night,5.9,2,48,Economy,8925
+Air India,Delhi,Hyderabad,Morning,6.1,1,30,Economy,10915
+SpiceJet,Kolkata,Bangalore,Afternoon,4.6,2,14,Economy,10771
+SpiceJet,Hyderabad,Bangalore,Night,5.3,0,9,Economy,11761
+IndiGo,Mumbai,Bangalore,Morning,4.5,2,13,Business,17445
+AirAsia,Mumbai,Hyderabad,Night,5.2,0,29,Economy,9325
+Air India,Chennai,Hyderabad,Morning,5.8,1,49,Business,16739
+IndiGo,Delhi,Mumbai,Evening,1.5,0,3,Economy,9842
+SpiceJet,Kolkata,Delhi,Morning,4.7,0,29,Economy,9568
+SpiceJet,Delhi,Kolkata,Evening,3.0,2,14,Economy,10099
+AirAsia,Bangalore,Kolkata,Afternoon,3.7,1,51,Economy,7718
+IndiGo,Mumbai,Chennai,Night,7.8,0,49,Economy,10440
+Vistara,Kolkata,Hyderabad,Afternoon,3.2,2,3,Economy,12554
+Vistara,Bangalore,Chennai,Night,6.1,1,31,Economy,11886
+Air India,Kolkata,Chennai,Morning,1.7,0,36,Economy,8165
+AirAsia,Mumbai,Bangalore,Night,6.3,2,32,Economy,11255
+Vistara,Kolkata,Hyderabad,Evening,5.6,2,28,Economy,12049
+Vistara,Mumbai,Delhi,Morning,5.6,1,37,Economy,10763
+Vistara,Chennai,Hyderabad,Afternoon,3.7,2,57,Economy,9360
+SpiceJet,Bangalore,Mumbai,Afternoon,4.5,2,16,Economy,10716
+IndiGo,Mumbai,Bangalore,Night,4.8,0,47,Economy,8660
+IndiGo,Bangalore,Hyderabad,Afternoon,2.9,0,58,Economy,6210
+SpiceJet,Mumbai,Hyderabad,Night,6.3,1,24,Economy,11438
+SpiceJet,Chennai,Kolkata,Morning,4.0,0,37,Economy,8115
+IndiGo,Hyderabad,Mumbai,Night,2.4,2,29,Economy,8078
+Air India,Chennai,Mumbai,Night,2.7,1,38,Economy,8628
+AirAsia,Mumbai,Kolkata,Evening,2.7,2,16,Economy,10116
+SpiceJet,Delhi,Kolkata,Evening,3.5,2,54,Economy,7971
+IndiGo,Bangalore,Mumbai,Night,3.2,2,15,Economy,9884
+Vistara,Mumbai,Kolkata,Night,3.9,0,10,Economy,11627
+Air India,Bangalore,Kolkata,Afternoon,2.0,0,20,Economy,8299
+SpiceJet,Bangalore,Mumbai,Morning,5.4,0,51,Economy,8370
+IndiGo,Mumbai,Chennai,Afternoon,1.4,2,18,Economy,9031
+Vistara,Hyderabad,Mumbai,Morning,5.4,2,41,Economy,12104
+SpiceJet,Kolkata,Delhi,Afternoon,4.2,2,17,Economy,11057
+SpiceJet,Hyderabad,Mumbai,Afternoon,6.5,2,59,Economy,9337
+SpiceJet,Hyderabad,Bangalore,Night,7.7,0,13,Economy,12682
+SpiceJet,Delhi,Bangalore,Afternoon,5.1,2,22,Economy,11213
+AirAsia,Hyderabad,Bangalore,Evening,7.2,2,53,Economy,10369
+Vistara,Delhi,Kolkata,Night,2.5,0,47,Economy,7881
+SpiceJet,Chennai,Kolkata,Evening,4.0,0,17,Business,16619
+Vistara,Hyderabad,Chennai,Afternoon,3.7,1,7,Economy,12142
+SpiceJet,Hyderabad,Mumbai,Evening,2.0,2,37,Economy,6966
+AirAsia,Kolkata,Bangalore,Afternoon,1.1,1,39,Economy,5573
+Air India,Kolkata,Hyderabad,Afternoon,7.3,1,38,Business,17968
+Vistara,Hyderabad,Mumbai,Night,5.3,1,5,Economy,13157
+SpiceJet,Bangalore,Chennai,Afternoon,7.1,0,55,Business,16174
+Air India,Mumbai,Delhi,Morning,3.9,0,22,Economy,10686
+AirAsia,Delhi,Bangalore,Morning,6.4,1,27,Economy,11327
+SpiceJet,Chennai,Delhi,Night,5.8,2,57,Business,14948
+IndiGo,Kolkata,Bangalore,Night,1.9,0,45,Business,12568
+AirAsia,Chennai,Bangalore,Morning,4.6,1,31,Economy,8901
+AirAsia,Hyderabad,Kolkata,Afternoon,7.0,2,45,Economy,10981
+IndiGo,Hyderabad,Chennai,Afternoon,3.6,2,10,Economy,11278
+SpiceJet,Chennai,Hyderabad,Morning,1.2,2,21,Business,15038
+AirAsia,Hyderabad,Kolkata,Morning,7.1,1,49,Economy,9331
+AirAsia,Delhi,Mumbai,Morning,3.1,1,27,Economy,8839
+Air India,Hyderabad,Bangalore,Evening,7.4,2,37,Economy,11917
+IndiGo,Mumbai,Bangalore,Afternoon,8.0,1,29,Economy,12409
