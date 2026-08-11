@@ -382,7 +382,7 @@ st.markdown(
     <div class="footer">
         ✈️ Flight Price Prediction
         <br>
-        <span style="font-size: 14px;">Created by Janhavi</span>
+        <span style="font-size: 14px;">Created by JMM</span>
     </div>
     """,
     unsafe_allow_html=True
