@@ -19,183 +19,254 @@ st.set_page_config(
 with open("flight_price_model.pkl", "rb") as file:
     model = pickle.load(file)
 
-# -----------------------------------
-# Custom CSS - Dark Brown Theme
-# -----------------------------------
-
 st.markdown(
     """
     <style>
 
-    /* Main background */
+    /* ===== MAIN BACKGROUND ===== */
+
     .stApp {
         background: linear-gradient(
             135deg,
-            #2b1608 0%,
-            #4a2410 25%,
-            #6b3415 50%,
-            #8a4b20 75%,
-            #d6a15c 100%
+            #fffaf3 0%,
+            #f7eee3 45%,
+            #ead8c4 100%
         );
-        color: white;
     }
 
-    /* Main content */
     .block-container {
         max-width: 1100px;
         padding-top: 2rem;
         padding-bottom: 2rem;
     }
 
-    /* Title */
+
+    /* ===== TITLE ===== */
+
     .main-title {
         text-align: center;
         font-size: 46px;
         font-weight: 800;
-        color: #ffe4b5;
+        color: #4a2c20;
         margin-top: 10px;
         margin-bottom: 5px;
-        text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
     }
 
-    /* Subtitle */
     .subtitle {
         text-align: center;
         font-size: 19px;
-        color: #f8d9ad;
+        color: #795548;
         margin-bottom: 30px;
     }
 
-    /* Section heading */
+
+    /* ===== SECTION TITLE ===== */
+
     .section-title {
         background: linear-gradient(
             90deg,
-            #3b1d0b,
-            #6f3515,
-            #9a5a28
+            #4a2c20,
+            #6f4937
         );
-        color: #ffe4b5;
+
+        color: #f8e6c8;
+
         padding: 14px 22px;
-        border-radius: 14px;
+
+        border-radius: 12px;
+
         font-size: 22px;
+
         font-weight: 700;
+
         margin-bottom: 22px;
-        border: 1px solid #b7793d;
-        box-shadow: 0 7px 20px rgba(0, 0, 0, 0.35);
+
+        box-shadow:
+            0 6px 18px rgba(74, 44, 32, 0.20);
     }
 
-    /* Labels */
+
+    /* ===== LABELS ===== */
+
     label {
-        color: #ffe4b5 !important;
+        color: #4a2c20 !important;
         font-weight: 700 !important;
     }
 
-    /* Select boxes */
+
+    /* ===== SELECT BOX ===== */
+
     div[data-baseweb="select"] > div {
-        background-color: #fff8ed !important;
-        border: 2px solid #b7793d !important;
+
+        background-color: #ffffff !important;
+
+        border: 1.5px solid #c7a17a !important;
+
         border-radius: 10px !important;
+
         min-height: 48px !important;
+
+        box-shadow:
+            0 2px 7px rgba(74, 44, 32, 0.08);
     }
+
 
     /* Selected value */
+
     div[data-baseweb="select"] span {
-        color: #3b1d0b !important;
+
+        color: #4a2c20 !important;
+
         font-weight: 700 !important;
     }
 
-    /* Dropdown options */
+
+    /* Dropdown */
+
     div[role="option"] {
-        color: #3b1d0b !important;
-        background-color: #fff8ed !important;
+
+        color: #4a2c20 !important;
+
+        background-color: #ffffff !important;
+
         font-weight: 600 !important;
     }
 
+
     div[role="option"]:hover {
-        background-color: #f3d5ad !important;
+
+        background-color: #f5e7d6 !important;
     }
 
-    /* Number inputs */
+
+    /* ===== NUMBER INPUT ===== */
+
     div[data-testid="stNumberInput"] input {
-        background-color: #fff8ed !important;
-        color: #3b1d0b !important;
+
+        background-color: #ffffff !important;
+
+        color: #4a2c20 !important;
+
         font-weight: 700 !important;
-        border: 2px solid #b7793d !important;
+
+        border: 1.5px solid #c7a17a !important;
+
         border-radius: 10px !important;
     }
 
-    /* Predict button */
+
+    /* ===== BUTTON ===== */
+
     .stButton > button {
+
         width: 100%;
+
         background: linear-gradient(
             90deg,
-            #3b1d0b,
-            #6f3515,
-            #a45f25
+            #4a2c20,
+            #6f4937
         );
-        color: #ffe4b5;
-        border: 2px solid #c58a4b;
-        border-radius: 14px;
+
+        color: #f8e6c8;
+
+        border: none;
+
+        border-radius: 12px;
+
         padding: 14px;
+
         font-size: 19px;
+
         font-weight: 700;
-        box-shadow: 0 7px 20px rgba(0, 0, 0, 0.35);
-        transition: all 0.3s ease;
+
+        box-shadow:
+            0 6px 16px rgba(74, 44, 32, 0.25);
+
+        transition: 0.3s;
     }
 
+
     .stButton > button:hover {
+
         background: linear-gradient(
             90deg,
-            #5a2a0d,
-            #8a451b,
-            #b87333
+            #5a3728,
+            #805846
         );
-        color: white;
+
+        color: #ffffff;
+
         transform: translateY(-2px);
     }
 
-    /* Prediction result */
+
+    /* ===== RESULT CARD ===== */
+
     .result-box {
+
         background: linear-gradient(
             135deg,
-            #2b1608,
-            #4a2410,
-            #7a3f18,
-            #a9672d
+            #ffffff,
+            #fff8ef
         );
-        color: white;
+
+        color: #4a2c20;
+
         padding: 32px;
-        border-radius: 22px;
+
+        border-radius: 18px;
+
         text-align: center;
+
         margin-top: 30px;
-        border: 2px solid #c58a4b;
-        box-shadow: 0 12px 35px rgba(0, 0, 0, 0.45);
+
+        border: 2px solid #c7a17a;
+
+        box-shadow:
+            0 10px 30px rgba(74, 44, 32, 0.15);
     }
 
+
     .result-box h2 {
-        color: #ffe4b5;
+
+        color: #6f4937;
+
         font-size: 25px;
+
         margin-bottom: 12px;
     }
 
+
     .price {
-        color: #ffffff;
+
+        color: #4a2c20;
+
         font-size: 52px;
+
         font-weight: 800;
+
         margin: 10px;
-        text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.45);
     }
 
-    /* Footer */
+
+    /* ===== FOOTER ===== */
+
     .footer {
+
         text-align: center;
-        color: #f8d9ad;
+
+        color: #795548;
+
         font-size: 16px;
+
         margin-top: 30px;
+
         padding: 15px;
     }
 
-    /* Mobile */
+
+    /* ===== MOBILE ===== */
+
     @media (max-width: 768px) {
 
         .main-title {
@@ -237,7 +308,6 @@ st.markdown(
     """,
     unsafe_allow_html=True
 )
-
 # -----------------------------------
 # Header
 # -----------------------------------
