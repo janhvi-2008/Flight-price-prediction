@@ -20,7 +20,9 @@ with open("flight_price_model.pkl", "rb") as file:
     model = pickle.load(file)
 
 # -----------------------------------
-# Pink Gradient CSS
+# Custom CSS - Dark Brown Theme
+# -----------------------------------
+
 st.markdown(
     """
     <style>
@@ -29,11 +31,20 @@ st.markdown(
     .stApp {
         background: linear-gradient(
             135deg,
-            #fff0f6 0%,
-            #fce7f3 35%,
-            #f3e8ff 70%,
-            #ffffff 100%
+            #2b1608 0%,
+            #4a2410 25%,
+            #6b3415 50%,
+            #8a4b20 75%,
+            #d6a15c 100%
         );
+        color: white;
+    }
+
+    /* Main content */
+    .block-container {
+        max-width: 1100px;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
     }
 
     /* Title */
@@ -41,15 +52,17 @@ st.markdown(
         text-align: center;
         font-size: 46px;
         font-weight: 800;
-        color: #831843;
-        margin-top: 15px;
+        color: #ffe4b5;
+        margin-top: 10px;
         margin-bottom: 5px;
+        text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
     }
 
+    /* Subtitle */
     .subtitle {
         text-align: center;
         font-size: 19px;
-        color: #6b214f;
+        color: #f8d9ad;
         margin-bottom: 30px;
     }
 
@@ -57,61 +70,58 @@ st.markdown(
     .section-title {
         background: linear-gradient(
             90deg,
-            #ec4899,
-            #d946ef,
-            #a855f7
+            #3b1d0b,
+            #6f3515,
+            #9a5a28
         );
-        color: white;
-        padding: 13px 22px;
+        color: #ffe4b5;
+        padding: 14px 22px;
         border-radius: 14px;
         font-size: 22px;
         font-weight: 700;
-        margin-bottom: 20px;
-        box-shadow: 0 5px 15px rgba(236, 72, 153, 0.25);
+        margin-bottom: 22px;
+        border: 1px solid #b7793d;
+        box-shadow: 0 7px 20px rgba(0, 0, 0, 0.35);
     }
 
     /* Labels */
     label {
-        color: #831843 !important;
+        color: #ffe4b5 !important;
         font-weight: 700 !important;
     }
 
-    /* Selectbox */
+    /* Select boxes */
     div[data-baseweb="select"] > div {
-        background-color: white !important;
-        border: 2px solid #f9a8d4 !important;
+        background-color: #fff8ed !important;
+        border: 2px solid #b7793d !important;
         border-radius: 10px !important;
         min-height: 48px !important;
     }
 
-    /* Selected value inside selectbox */
+    /* Selected value */
     div[data-baseweb="select"] span {
-        color: #831843 !important;
+        color: #3b1d0b !important;
         font-weight: 700 !important;
-    }
-
-    /* Selectbox text */
-    div[data-baseweb="select"] input {
-        color: #831843 !important;
     }
 
     /* Dropdown options */
     div[role="option"] {
-        color: #831843 !important;
-        background-color: white !important;
+        color: #3b1d0b !important;
+        background-color: #fff8ed !important;
         font-weight: 600 !important;
     }
 
     div[role="option"]:hover {
-        background-color: #fce7f3 !important;
+        background-color: #f3d5ad !important;
     }
 
-    /* Number input */
+    /* Number inputs */
     div[data-testid="stNumberInput"] input {
-        background-color: white !important;
-        color: #831843 !important;
+        background-color: #fff8ed !important;
+        color: #3b1d0b !important;
         font-weight: 700 !important;
-        border: 2px solid #f9a8d4 !important;
+        border: 2px solid #b7793d !important;
+        border-radius: 10px !important;
     }
 
     /* Predict button */
@@ -119,71 +129,73 @@ st.markdown(
         width: 100%;
         background: linear-gradient(
             90deg,
-            #ec4899,
-            #d946ef,
-            #a855f7
+            #3b1d0b,
+            #6f3515,
+            #a45f25
         );
-        color: white;
-        border: none;
+        color: #ffe4b5;
+        border: 2px solid #c58a4b;
         border-radius: 14px;
         padding: 14px;
         font-size: 19px;
         font-weight: 700;
-        box-shadow: 0 6px 18px rgba(236, 72, 153, 0.30);
+        box-shadow: 0 7px 20px rgba(0, 0, 0, 0.35);
+        transition: all 0.3s ease;
     }
 
     .stButton > button:hover {
         background: linear-gradient(
             90deg,
-            #db2777,
-            #c026d3,
-            #9333ea
+            #5a2a0d,
+            #8a451b,
+            #b87333
         );
         color: white;
+        transform: translateY(-2px);
     }
 
     /* Prediction result */
     .result-box {
         background: linear-gradient(
             135deg,
-            #ec4899,
-            #d946ef,
-            #9333ea
+            #2b1608,
+            #4a2410,
+            #7a3f18,
+            #a9672d
         );
         color: white;
         padding: 32px;
         border-radius: 22px;
         text-align: center;
         margin-top: 30px;
-        box-shadow: 0 10px 30px rgba(190, 24, 93, 0.25);
+        border: 2px solid #c58a4b;
+        box-shadow: 0 12px 35px rgba(0, 0, 0, 0.45);
     }
 
     .result-box h2 {
-        color: white;
+        color: #ffe4b5;
         font-size: 25px;
+        margin-bottom: 12px;
     }
 
     .price {
-        color: white;
+        color: #ffffff;
         font-size: 52px;
         font-weight: 800;
-    }
-
-    .result-box p {
-        color: #fce7f3;
-        font-size: 16px;
+        margin: 10px;
+        text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.45);
     }
 
     /* Footer */
     .footer {
         text-align: center;
-        color: #831843;
-        font-size: 15px;
-        margin-top: 25px;
+        color: #f8d9ad;
+        font-size: 16px;
+        margin-top: 30px;
         padding: 15px;
     }
 
-    /* Mobile optimization */
+    /* Mobile */
     @media (max-width: 768px) {
 
         .main-title {
@@ -196,6 +208,7 @@ st.markdown(
 
         .section-title {
             font-size: 19px;
+            padding: 12px 16px;
         }
 
         div[data-baseweb="select"] > div {
@@ -209,6 +222,14 @@ st.markdown(
 
         .price {
             font-size: 40px;
+        }
+
+        .result-box {
+            padding: 25px 15px;
+        }
+
+        .result-box h2 {
+            font-size: 21px;
         }
     }
 
@@ -333,7 +354,7 @@ with col2:
 
 st.write("")
 
-if st.button("✈️ Predict Flight Price"):
+if st.button("✈️ Predict Flight Price", use_container_width=True):
 
     new_flight = pd.DataFrame({
         "Airline": [airline],
@@ -355,13 +376,8 @@ if st.button("✈️ Predict Flight Price"):
         st.markdown(
             f"""
             <div class="result-box">
-
                 <h2>💰 Estimated Flight Ticket Price</h2>
-
-                <div class="price">
-                    ₹{price:,.0f}
-                </div>
-
+                <div class="price">₹{price:,.0f}</div>
             </div>
             """,
             unsafe_allow_html=True
@@ -370,8 +386,8 @@ if st.button("✈️ Predict Flight Price"):
     except Exception as e:
 
         st.error("❌ Prediction failed.")
-
         st.exception(e)
+
 # -----------------------------------
 # Footer
 # -----------------------------------
@@ -386,3 +402,7 @@ st.markdown(
     """,
     unsafe_allow_html=True
 )
+
+
+
+
