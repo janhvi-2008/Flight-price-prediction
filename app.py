@@ -352,21 +352,21 @@ if st.button("✈️ Predict Flight Price"):
 
         price = prediction[0]
 
-        st.markdown(
-            f"""
-            <div class="result-box">
+       
+ st.markdown(
+    f"""
+    <div class="result-box">
 
-    <h2>💰 Estimated Flight Ticket Price</h2>
+        <h2>💰 Estimated Flight Ticket Price</h2>
 
-    <div class="price">
-        ₹{price:,.0f}
+        <div class="price">
+            ₹{price:,.0f}
+        </div>
+
     </div>
-
-</div>
-            """,
-            unsafe_allow_html=True
-        )
-
+    """,
+    unsafe_allow_html=True
+)
     except Exception as e:
 
         st.error("❌ Prediction failed.")
