@@ -356,15 +356,13 @@ if st.button("✈️ Predict Flight Price"):
             f"""
             <div class="result-box">
 
-                <h2>💰 Estimated Flight Ticket Price</h2>
+    <h2>💰 Estimated Flight Ticket Price</h2>
 
-                <div class="price">
-                    ₹{price:,.0f}
-                </div>
+    <div class="price">
+        ₹{price:,.0f}
+    </div>
 
-                <p>Powered by Random Forest Regression</p>
-
-            </div>
+</div>
             """,
             unsafe_allow_html=True
         )
