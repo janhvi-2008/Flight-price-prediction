@@ -487,19 +487,19 @@ if st.button("✈️ Predict Flight Price", use_container_width=True):
         price = prediction[0]
 
         st.markdown(
-            f"""
-            <div class="result-box">
+    f"""
+    <div class="result-box">
 
-                <h2>💰 Estimated Flight Ticket Price</h2>
+        <h2>💰 Estimated Flight Ticket Price</h2>
 
-                <div class="price">
-                    ₹{price:,.0f}
-                </div>
+        <div class="price">
+            ₹{price:,.0f}
+        </div>
 
-            </div>
-            """,
-            unsafe_allow_html=True
-        )
+    </div>
+    """,
+    unsafe_allow_html=True
+)
 
     except Exception as e:
 
@@ -514,15 +514,11 @@ if st.button("✈️ Predict Flight Price", use_container_width=True):
 st.markdown(
     """
     <div class="footer">
-
         ✈️ Flight Price Prediction
-
         <br>
-
         <span style="font-size: 14px;">
             Created by JMM
         </span>
-
     </div>
     """,
     unsafe_allow_html=True
