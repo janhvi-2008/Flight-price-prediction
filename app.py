@@ -489,8 +489,6 @@ if st.button("✈️ Predict Flight Price", use_container_width=True):
         st.markdown(
     f"""
     <div class="result-box">
-        <h2>💰 Estimated Flight Ticket Price</h2>
-
         <div class="price">
             ₹{price:,.0f}
         </div>
