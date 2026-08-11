@@ -2,9 +2,9 @@ import streamlit as st
 import pandas as pd
 import pickle
 
-# -----------------------------------
-# Page Settings
-# -----------------------------------
+# ==========================================
+# PAGE SETTINGS
+# ==========================================
 
 st.set_page_config(
     page_title="Flight Price Prediction",
@@ -12,25 +12,32 @@ st.set_page_config(
     layout="wide"
 )
 
-# -----------------------------------
-# Load Model
-# -----------------------------------
+# ==========================================
+# LOAD MODEL
+# ==========================================
 
 with open("flight_price_model.pkl", "rb") as file:
     model = pickle.load(file)
+
+# ==========================================
+# CUSTOM CSS
+# ==========================================
 
 st.markdown(
     """
     <style>
 
-    /* ===== MAIN BACKGROUND ===== */
+    /* --------------------------------------
+       MAIN BACKGROUND
+       -------------------------------------- */
 
     .stApp {
         background: linear-gradient(
             135deg,
-            #fffaf3 0%,
-            #f7eee3 45%,
-            #ead8c4 100%
+            #fff9fb 0%,
+            #fce7ef 35%,
+            #f5d1dc 70%,
+            #e8a0b8 100%
         );
     }
 
@@ -41,39 +48,50 @@ st.markdown(
     }
 
 
-    /* ===== TITLE ===== */
+    /* --------------------------------------
+       MAIN TITLE
+       -------------------------------------- */
 
     .main-title {
         text-align: center;
         font-size: 46px;
         font-weight: 800;
-        color: #4a2c20;
+        color: #5A1028;
         margin-top: 10px;
         margin-bottom: 5px;
+        text-shadow: 1px 2px 5px rgba(90, 16, 40, 0.15);
     }
+
+
+    /* --------------------------------------
+       SUBTITLE
+       -------------------------------------- */
 
     .subtitle {
         text-align: center;
         font-size: 19px;
-        color: #795548;
+        color: #7A1737;
         margin-bottom: 30px;
     }
 
 
-    /* ===== SECTION TITLE ===== */
+    /* --------------------------------------
+       SECTION HEADER
+       -------------------------------------- */
 
     .section-title {
         background: linear-gradient(
             90deg,
-            #4a2c20,
-            #6f4937
+            #5A1028,
+            #7A1737,
+            #A52A50
         );
 
-        color: #f8e6c8;
+        color: #FFE8EF;
 
         padding: 14px 22px;
 
-        border-radius: 12px;
+        border-radius: 14px;
 
         font-size: 22px;
 
@@ -82,32 +100,36 @@ st.markdown(
         margin-bottom: 22px;
 
         box-shadow:
-            0 6px 18px rgba(74, 44, 32, 0.20);
+            0 7px 20px rgba(90, 16, 40, 0.25);
     }
 
 
-    /* ===== LABELS ===== */
+    /* --------------------------------------
+       LABELS
+       -------------------------------------- */
 
     label {
-        color: #4a2c20 !important;
+        color: #5A1028 !important;
         font-weight: 700 !important;
     }
 
 
-    /* ===== SELECT BOX ===== */
+    /* --------------------------------------
+       SELECT BOX
+       -------------------------------------- */
 
     div[data-baseweb="select"] > div {
 
-        background-color: #ffffff !important;
+        background-color: #FFFFFF !important;
 
-        border: 1.5px solid #c7a17a !important;
+        border: 2px solid #E8A0B8 !important;
 
         border-radius: 10px !important;
 
         min-height: 48px !important;
 
         box-shadow:
-            0 2px 7px rgba(74, 44, 32, 0.08);
+            0 3px 10px rgba(90, 16, 40, 0.08);
     }
 
 
@@ -115,19 +137,19 @@ st.markdown(
 
     div[data-baseweb="select"] span {
 
-        color: #4a2c20 !important;
+        color: #5A1028 !important;
 
         font-weight: 700 !important;
     }
 
 
-    /* Dropdown */
+    /* Dropdown options */
 
     div[role="option"] {
 
-        color: #4a2c20 !important;
+        color: #5A1028 !important;
 
-        background-color: #ffffff !important;
+        background-color: #FFFFFF !important;
 
         font-weight: 600 !important;
     }
@@ -135,27 +157,31 @@ st.markdown(
 
     div[role="option"]:hover {
 
-        background-color: #f5e7d6 !important;
+        background-color: #FCE7EF !important;
     }
 
 
-    /* ===== NUMBER INPUT ===== */
+    /* --------------------------------------
+       NUMBER INPUT
+       -------------------------------------- */
 
     div[data-testid="stNumberInput"] input {
 
-        background-color: #ffffff !important;
+        background-color: #FFFFFF !important;
 
-        color: #4a2c20 !important;
+        color: #5A1028 !important;
 
         font-weight: 700 !important;
 
-        border: 1.5px solid #c7a17a !important;
+        border: 2px solid #E8A0B8 !important;
 
         border-radius: 10px !important;
     }
 
 
-    /* ===== BUTTON ===== */
+    /* --------------------------------------
+       PREDICT BUTTON
+       -------------------------------------- */
 
     .stButton > button {
 
@@ -163,15 +189,16 @@ st.markdown(
 
         background: linear-gradient(
             90deg,
-            #4a2c20,
-            #6f4937
+            #5A1028,
+            #7A1737,
+            #A52A50
         );
 
-        color: #f8e6c8;
+        color: #FFE8EF;
 
         border: none;
 
-        border-radius: 12px;
+        border-radius: 14px;
 
         padding: 14px;
 
@@ -180,9 +207,9 @@ st.markdown(
         font-weight: 700;
 
         box-shadow:
-            0 6px 16px rgba(74, 44, 32, 0.25);
+            0 7px 20px rgba(90, 16, 40, 0.30);
 
-        transition: 0.3s;
+        transition: all 0.3s ease;
     }
 
 
@@ -190,46 +217,53 @@ st.markdown(
 
         background: linear-gradient(
             90deg,
-            #5a3728,
-            #805846
+            #7A1737,
+            #A52A50,
+            #C44C70
         );
 
-        color: #ffffff;
+        color: white;
 
         transform: translateY(-2px);
+
+        box-shadow:
+            0 10px 25px rgba(90, 16, 40, 0.35);
     }
 
 
-    /* ===== RESULT CARD ===== */
+    /* --------------------------------------
+       RESULT CARD
+       -------------------------------------- */
 
     .result-box {
 
         background: linear-gradient(
             135deg,
-            #ffffff,
-            #fff8ef
+            #5A1028,
+            #7A1737,
+            #A52A50
         );
 
-        color: #4a2c20;
+        color: white;
 
         padding: 32px;
 
-        border-radius: 18px;
+        border-radius: 20px;
 
         text-align: center;
 
         margin-top: 30px;
 
-        border: 2px solid #c7a17a;
+        border: 2px solid #E8A0B8;
 
         box-shadow:
-            0 10px 30px rgba(74, 44, 32, 0.15);
+            0 12px 30px rgba(90, 16, 40, 0.30);
     }
 
 
     .result-box h2 {
 
-        color: #6f4937;
+        color: #FFE8EF;
 
         font-size: 25px;
 
@@ -239,23 +273,28 @@ st.markdown(
 
     .price {
 
-        color: #4a2c20;
+        color: #FFFFFF;
 
         font-size: 52px;
 
         font-weight: 800;
 
         margin: 10px;
+
+        text-shadow:
+            1px 2px 6px rgba(0, 0, 0, 0.25);
     }
 
 
-    /* ===== FOOTER ===== */
+    /* --------------------------------------
+       FOOTER
+       -------------------------------------- */
 
     .footer {
 
         text-align: center;
 
-        color: #795548;
+        color: #7A1737;
 
         font-size: 16px;
 
@@ -265,7 +304,9 @@ st.markdown(
     }
 
 
-    /* ===== MOBILE ===== */
+    /* --------------------------------------
+       MOBILE DESIGN
+       -------------------------------------- */
 
     @media (max-width: 768px) {
 
@@ -302,15 +343,17 @@ st.markdown(
         .result-box h2 {
             font-size: 21px;
         }
+
     }
 
     </style>
     """,
     unsafe_allow_html=True
 )
-# -----------------------------------
-# Header
-# -----------------------------------
+
+# ==========================================
+# HEADER
+# ==========================================
 
 st.markdown(
     '<div class="main-title">✈️ Flight Price Prediction</div>',
@@ -322,9 +365,9 @@ st.markdown(
     unsafe_allow_html=True
 )
 
-# -----------------------------------
-# Flight Details
-# -----------------------------------
+# ==========================================
+# FLIGHT DETAILS
+# ==========================================
 
 st.markdown(
     '<div class="section-title">🛫 Enter Flight Details</div>',
@@ -333,9 +376,9 @@ st.markdown(
 
 col1, col2 = st.columns(2)
 
-# -----------------------------------
-# Column 1
-# -----------------------------------
+# ==========================================
+# LEFT COLUMN
+# ==========================================
 
 with col1:
 
@@ -384,9 +427,9 @@ with col1:
         ]
     )
 
-# -----------------------------------
-# Column 2
-# -----------------------------------
+# ==========================================
+# RIGHT COLUMN
+# ==========================================
 
 with col2:
 
@@ -418,9 +461,9 @@ with col2:
         ]
     )
 
-# -----------------------------------
-# Prediction
-# -----------------------------------
+# ==========================================
+# PREDICTION
+# ==========================================
 
 st.write("")
 
@@ -446,8 +489,13 @@ if st.button("✈️ Predict Flight Price", use_container_width=True):
         st.markdown(
             f"""
             <div class="result-box">
+
                 <h2>💰 Estimated Flight Ticket Price</h2>
-                <div class="price">₹{price:,.0f}</div>
+
+                <div class="price">
+                    ₹{price:,.0f}
+                </div>
+
             </div>
             """,
             unsafe_allow_html=True
@@ -456,23 +504,32 @@ if st.button("✈️ Predict Flight Price", use_container_width=True):
     except Exception as e:
 
         st.error("❌ Prediction failed.")
+
         st.exception(e)
 
-# -----------------------------------
-# Footer
-# -----------------------------------
+# ==========================================
+# FOOTER
+# ==========================================
 
 st.markdown(
     """
     <div class="footer">
+
         ✈️ Flight Price Prediction
+
         <br>
-        <span style="font-size: 14px;">Created by JMM</span>
+
+        <span style="font-size: 14px;">
+            Created by JMM
+        </span>
+
     </div>
     """,
     unsafe_allow_html=True
 )
 
+
+        
 
 
 
